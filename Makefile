@@ -47,9 +47,9 @@ ifeq ($(HOST),mingw)
 	OS_SOURCE=asylum_win.$(OBJ)
 endif
 ifeq ($(HOST),generic)
-	INSTALLBIN=/usr/games/asylum
-	INSTALLRESOURCEPATH=/usr/share/games/asylum
-	INSTALLHISCORES=/var/games/asylum
+	INSTALLBIN=/usr/local/bin/asylum
+	INSTALLRESOURCEPATH=/usr/local/share/asylum
+	INSTALLHISCORES=/var/local/asylum
 	OBJ=.o
 endif
 
