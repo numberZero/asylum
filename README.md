@@ -11,17 +11,17 @@ been tested on Linux and Cygwin, but it should be possible to run it on other
 platforms which support the SDL graphics library.
 
 Installing and running
-======================
+----------------------
 
 	make
 	sudo make install             # optional
 	asylum
 
 You'll need SDL and SDL_mixer.  If you don't have (or don't want to be) root,
-you can invoke the game as "./asylum" from this directory.
+you can invoke the game as `./asylum` from this directory.
 
 Instructions
-============
+------------
 
 The game revolves around shooting anything which moves, collecting anything
 which doesn't move, and, most importantly, finding your way to each of the
@@ -37,13 +37,12 @@ default key settings.)
 See the file 'Instruct' for the instructions included with the original game.
 
 Licensing
-=========
+---------
 
 SDL Asylum is distributed under GPL version 3.  The original game music
 and graphics are © Andy Southgate 1993, and have been placed in the public
 domain by Andy Southgate.
 
-Web site
-========
+SDL Asylum is maintained by Hugh Robinson; see the [web site](http://sdl-asylum.sourceforge.net/) for details.
 
-http://sdl-asylum.sourceforge.net/
+This version is modified by Lobachevskiy Vitaliy in 2018, see [GitHub](https://github.com/numberZero/asylum) for details.
