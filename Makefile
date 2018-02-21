@@ -9,7 +9,7 @@ COPTS=  $(CFLAGS) -funsigned-char \
 	-DRESOURCEPATH=\"$(INSTALLRESOURCEPATH)\" \
 	-DSCOREPATH=\"$(INSTALLHISCORES)\"
 LIBS= -lm -lSDL -lSDL_mixer -lGL -lGLU
-SRCS= alien.c asylum.c bullet.c file.c keyboard.c maze.c menus.c player.c projectile.c sound.c vdu.c
+SRCS= alien.cxx asylum.cxx bullet.cxx file.cxx keyboard.cxx maze.cxx menus.cxx player.cxx projectile.cxx sound.cxx vdu.cxx
 
 RESOURCES=data/Resources data/Ego data/Psyche data/Id data/Voices
 
@@ -99,7 +99,7 @@ oggs:
 
 build: asylum$(EXE)
 
-%$(OBJ): %.c asylum.h
+%$(OBJ): %.cxx asylum.h
 	$(CC) -c -o $@ $(COPTS) $<
 
 asylum$(EXE): $(OBJS)
